@@ -1,0 +1,77 @@
+.input-formulario{
+    border-width: 0px;
+    height: 45px;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color:  var(--tw-gradient-from);
+    font-size: 17px;
+    padding: 7px;
+    width: 100%;
+    margin-bottom: 35px;
+    background-color: transparent;
+}
+
+.input-formulario:active, .input-formulario::selection, .input-formulario::after,.input-formulario:focus{
+    border-width: 0px;
+    outline: none;
+
+}
+input:focus {
+    outline: none;
+  }
+
+
+label{
+    margin-bottom: 5px;
+    color:var(--tw-gradient-from);
+}
+
+.container-contact h3{
+    margin-top: 65px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+form{
+    padding: 48px;
+    background-color: var( --color-blue-light);
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    resize: vertical;
+    height: 45px;
+    min-height: 45px;
+    max-height: 250px;
+    
+}
+
+.btn{
+    padding: 8px;
+    font-size: 15px;
+    height: 50px;
+    width: 100px;
+    border-width: 0px;
+    border-radius: var(--border-radius);
+    align-self: flex-end;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+    transform: scale(.98);
+    cursor: pointer;
+}
+
+
+/* Cuando la pantalla es menor a 900px  (tablets y teléfonos inteligentes)*/
+@media only screen and (max-width : 900px) {
+
+    
+.container-contact h3{
+    margin-top: 45px;
+    margin-bottom: 30px;
+    
+}
+}

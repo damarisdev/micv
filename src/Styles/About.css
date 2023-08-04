@@ -1,0 +1,40 @@
+.containerAbout p{
+    line-height: 1.6285em;
+    font-size: 1.05rem;
+    font-family: 'Poppins';
+    color: rgb(68 86 108 / var(--tw-text-opacity));
+    text-align: justify;
+}
+
+.containerAbout p:first-of-type{
+    margin-top: 30px;
+}
+
+.containerAbout p:last-of-type{
+    margin-bottom: 60px;
+}
+
+.containerAbout a{
+    color: var(--color-pink-primary);
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.containerCardWork{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas iguales */
+    grid-gap: 25px; /* Espacio entre las cards */
+}
+
+/* Cuando la pantalla es menor a 900px  (tablets y teléfonos inteligentes)*/
+@media only screen and (max-width : 900px) {
+    .containerAbout p:first-of-type{
+        margin-top: 15px;
+    }
+    
+    .containerAbout p:last-of-type{
+        margin-bottom: 30px;
+    }
+
+}

@@ -1,0 +1,115 @@
+.CardCertificate{
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 0px !important;
+    margin-bottom: 20px !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("./../../Images/bg.jpg") !important;
+}
+
+
+
+.CardCertificate:hover{
+    background-color: #fff5db !important;
+    transition: 2s;
+    transform: rotateY(360deg);
+}
+
+.container-certificate h3{
+    color:var(--color-gray-strong);
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+}
+
+.swal2-image{
+    border-color: var(--color-pink-primary);
+    border-style: double;
+    border-width: 7px;
+}
+
+.swal2-popup{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("./../../Images/bg.jpg");
+}
+
+.swal2-title{
+    color: var(--tw-gradient-to);
+}
+
+.swal2-confirm{
+    background-image: linear-gradient(to right, var(--tw-gradient-stops)) !important;
+    --tw-text-opacity: 1!important;
+    color: rgb(255 255 255 / var(--tw-text-opacity))!important;
+    cursor: pointer!important;
+    color: var(--color-white)!important;
+    font-size: 17px !important;
+}
+
+.curso{
+    margin-top: 3px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.titulo{
+    margin-top: 3px;
+    text-align: center;
+}
+
+.propiedades{
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+.CardCertificate a{
+    
+    cursor: pointer;
+    color:var(--tw-gradient-to)
+}
+
+.CardCertificate a:hover {
+    scale: 1.5;
+    transition: 2s;
+    
+}
+
+.linkDiploma{
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.containerDiploma{
+    text-align: center;
+    margin-top: 16px;
+}
+
+.containerDiploma a{
+    text-decoration: underline;
+    font-size: 20px;
+    color:var(--tw-gradient-to)
+}
+
+
+/* Cuando la pantalla es menor a 900px  (tablets y teléfonos inteligentes)*/
+@media only screen and (max-width : 900px) {
+
+    .container-certificate h3{
+        font-size: 21px;
+    }
+    
+    .CardCertificate{
+        width: 47%;
+    }
+    
+}

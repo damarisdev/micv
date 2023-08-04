@@ -1,0 +1,73 @@
+.ContainerTopMenu{
+    background-color: var(--color-white);
+    min-width: 500px;
+    height: 120px;
+    border-radius: var(--border-radius);
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-self: flex-end;
+    margin-right: 0px;
+}
+
+.ContainerTopMenu .item{
+    width: 75px;
+    height: 75px;
+    border-radius: 7px;
+    background-color: var(--color-blue-light);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 8px;
+}
+
+.ContainerTopMenu .item:hover{
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    cursor: pointer;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--color-white);
+}
+
+.ContainerTopMenu .item img{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+.ContainerTopMenu .item p{
+    color: var(--color-gray-strong);
+    margin-top: 7px;
+    font-size: 11px;
+}
+
+.ContainerTopMenu .item p:hover{
+    color: var(--color-white);
+}
+
+.acentoPink{
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    cursor: pointer;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--color-white);
+}
+
+/* Cuando la pantalla es menor a 900px  (tablets y teléfonos inteligentes)*/
+@media only screen and (max-width : 900px) {
+    .ContainerTopMenu {
+        align-self: center;
+    }
+    
+
+}

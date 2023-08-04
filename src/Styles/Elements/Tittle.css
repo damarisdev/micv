@@ -1,0 +1,31 @@
+.containerTittle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.containerTittle h2{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-right: 24px;
+}
+
+.containerTittle .separator{
+    width: 400px;
+    height: 4px;
+    border-radius: var(--border-radius);
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+/* Cuando la pantalla es menor a 900px  (tablets y teléfonos inteligentes)*/
+@media only screen and (max-width : 900px) {
+    .containerTittle h2{
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    
+    .containerTittle .separator{
+        width: 300px;
+    }
+
+}

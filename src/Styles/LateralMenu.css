@@ -1,0 +1,203 @@
+.lateralMenu{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    min-height: 80vh;
+}
+
+.containerPhoto{
+    margin-bottom: 30px;
+}
+
+.lateralMenu img{
+    width: 240px;
+    height: 240px;
+    border-radius: var(--border-radius);
+    object-fit: fill;
+    
+}
+.containerPunto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+.punto{
+    width: 10px;
+    height: 10px;
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-top: 4px;
+    animation: sonar 1s infinite;
+}
+
+.textoPunto{
+    font-style: italic;
+    color: var(--color-pink-primary);
+}
+
+@keyframes sonar {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1.8);
+        opacity: 0.5;
+    }
+}
+
+.lateralMenu .containerInfo h1{
+    font-family: 'Poppins','Roboto',  sans-serif;
+}
+
+.lateralMenu .containerInfo  h2{
+    font-size: small;
+    color: var(--color-gray);
+    font-family: 'Poppins','Roboto',  sans-serif;
+    margin-top: 0px;
+}
+
+.lateralMenu .containerInfo  h2:last-child{
+    font-size: small;
+    color: var(--color-white);
+    font-family: 'Poppins','Roboto',  sans-serif;
+    margin-top: 0px;
+}
+
+.lateralMenu .containerInfo .containerSocialMedia {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+.lateralMenu .containerInfo .containerSocialMedia img{
+    width: 30px;
+    height: 30px;
+    border-radius: 0px;
+}
+
+.lateralMenu .containerInfo .containerSocialMedia .itemMedia{
+    background-color: var(--color-blue-light);
+    border-width: 0px;
+    padding: 2px;
+    width: 39px;
+    height: 40px;
+    border-radius: 8px;
+    
+}
+
+.lateralMenu .containerInfo .containerSocialMedia .itemMedia:hover{
+    
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    cursor: pointer;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.lateralMenu .info{
+    min-width: 300px;
+    background-color: var(--color-blue-light);
+    border-radius: var(--border-radius);
+    padding: 10px;
+    
+}
+
+.lateralMenu .containerInfo  .info .item{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom-width: 0.8px;
+    border-bottom-style: solid;
+    border-bottom-color: #92a0a242;
+}
+
+.lateralMenu .containerInfo  .info .item:last-child{
+    border-bottom-width: 0px;
+}
+
+.lateralMenu .containerInfo  .info .item .containerIcon{
+   background-color: var(--color-white);
+   width: 40px;
+   height: 40px;
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 8px;
+}
+
+.lateralMenu .containerInfo  .info .item .containerIcon:hover{
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.lateralMenu .containerInfo  .info .item .containerIcon img{
+    width: 25px;
+    height: 25px;
+    border-radius: 0px;
+ }
+
+
+
+.lateralMenu .containerInfo  .info .item .containerLabel{
+    text-align: left;
+    margin-left: 15px;
+}
+
+.lateralMenu .containerInfo  .info .item .containerLabel .itemLabel{
+   font-size: 12px;
+   color: var(--color-gray);
+   margin-bottom: 5px;
+   font-weight: 600;
+}
+
+.lateralMenu .containerInfo  .info .item .containerLabel .itemValue{
+    font-weight: 600;
+ }
+
+
+.lateralMenu .containerInfo  .btnDownload{
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    cursor: pointer;
+    color: var(--color-white);
+    border-width: 0px;
+    padding: 15px;
+    margin: 18px;
+    margin-top: 25px;
+    border-radius: var(--border-radius);
+    font-size: 17px;
+
+}
+
+.lateralMenu .containerInfo  .btnDownload:hover{
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    scale: (1.1);
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.lateralMenu .containerInfo  .btnDownload .btnIcon{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+

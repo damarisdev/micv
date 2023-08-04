@@ -1,0 +1,61 @@
+.containerPage{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    padding-bottom: 50px;
+}
+
+.containerHero{
+    min-width: 45vw;
+    width: 60vw;
+    min-height: 80vh;
+    background-color: var(--color-white);
+    border-radius: var(--border-radius);
+    padding: 30px;
+}
+
+.containerData{
+    display: flex;
+    flex-direction: column;
+}
+
+.divLateralMenuMin{
+    display: none;
+}
+
+.divMenu{
+    display: none;
+}
+
+/* Cuando la pantalla es menor a 900px  (tablets y teléfonos inteligentes)*/
+@media only screen and (max-width : 900px) {
+    .containerHero {
+        width: 90vw;
+        margin: auto;
+    }
+    
+    .divLateralMenuPrincipal{
+        display: none;
+    }
+
+    .divLateralMenuMin{
+        display: flex;
+        justify-content: center;
+    }
+
+    .containerPage{
+        flex-direction: column;
+    }
+
+    .divMenu{
+        display: initial;
+        position: absolute;
+        top: 12px;
+        left: 12px;
+    }
+
+    .divMenu img{
+        width: 42px;
+        height: 42px;
+    }
+}

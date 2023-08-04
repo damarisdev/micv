@@ -1,0 +1,84 @@
+.container-skills{
+  
+    padding: 16px;
+    padding-top: 32px;
+}
+
+.container-knowledges{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-budget{
+    width: 47%;
+    margin: 1%;
+}
+
+.container-budget:last-child{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.container-budget h5{
+    margin-top: 8px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.container-acento{
+    display: flex;
+    align-items: center;
+}
+
+.acento{
+    width: 3px;
+    height: 300px;
+    border-radius: var(--border-radius);
+    background-color: var(--color-gray);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 22px;
+
+   
+}
+
+.container-budget .items{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.container-budget:last-child .items{
+    justify-content: end;
+}
+
+.container-budget:last-child h5{
+    padding-right: 12px;
+}
+
+/* Cuando la pantalla es menor a 900px  (tablets y teléfonos inteligentes)*/
+@media only screen and (max-width : 900px) {
+
+
+    .container-knowledges{
+        flex-direction: column;
+    }
+
+    .acento{
+        height: 3px;
+        width: 350px;
+        margin: auto;
+        margin-top: 18px; 
+        margin-bottom: 18px; 
+    }
+
+    .container-budget{
+        width: 98%;
+        
+    }
+
+}

@@ -1,0 +1,67 @@
+.bgColor_1{
+    background-color: #e6d6ec;
+}
+
+.bgColor_2{
+    background-color: #fff5db;
+}
+
+.bgColor_3{
+    background-color: #f6ddff;
+}
+
+.bgColor_4{
+    background-color: #ffe5e5;
+}
+
+.bgColor_5{
+    background-color: #fee4f2;
+}
+
+.bgColor_6{
+    background-color: #e0effa;
+}
+
+.cardWorks{
+    border-radius: var(--border-radius);
+    border-color: black;
+    border-width: 4px;
+    width: 100%;
+    padding: 16px;
+    display: flex;
+}
+
+.cardWorks img{
+    width: 48px;
+    height: 48px;
+}
+
+.cardWorks h3{
+    font-size: 19px;
+    margin-left: 10px !important;
+    font-weight: bold;
+}
+
+.cardWorks p{
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 5px !important;
+}
+
+/* Cuando la pantalla es menor a 900px  (tablets y teléfonos inteligentes)*/
+@media only screen and (max-width : 900px) {
+    .cardWorks img{
+        width: 36px;
+        height: 36px;
+    }
+    
+    .cardWorks h3{
+        font-size: 16px;
+        margin-left: 10px !important;
+    }
+
+    .cardWorks p{
+        font-size: 12px;
+    }
+
+}

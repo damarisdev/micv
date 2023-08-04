@@ -1,0 +1,25 @@
+.CardKnowledge{
+    border-radius: 7px;
+    padding: 8px;
+    width: 40%;
+    text-align: center;
+    margin: 12px;
+    margin-left: 0px;
+}
+
+
+.color-1{
+    background-color: #fff5db;
+}
+
+.color-2{
+    background-color: #f6ddff;
+}
+
+/* Cuando la pantalla es menor a 900px  (tablets y teléfonos inteligentes)*/
+@media only screen and (max-width : 900px) {
+
+    .CardKnowledge{
+        width: 47%;
+    }
+}

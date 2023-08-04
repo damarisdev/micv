@@ -1,0 +1,76 @@
+.bgColor_1{
+    background-color: #e6d6ec;
+}
+
+.bgColor_2{
+    background-color: #fff5db;
+}
+
+.bgColor_3{
+    background-color: #f6ddff;
+}
+
+.bgColor_4{
+    background-color: #ffe5e5;
+}
+
+.bgColor_5{
+    background-color: #fee4f2;
+}
+
+.bgColor_6{
+    background-color: #e0effa;
+}
+
+.cardWork{
+    border-radius: var(--border-radius);
+    border-color: black;
+    border-width: 4px;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-date{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-date p{
+    margin-left: 12px;
+    font-weight: bold;
+    color: var(--color-gray);
+}
+
+.container-info{
+    flex-direction: row;
+    display: flex;
+}
+
+.cardWork img{
+    width: 80px;
+    height: 80px;
+    margin: 12px;
+    object-fit: fill;
+}
+
+.cardWork h3{
+    font-size: 19px;
+    font-weight: bold;
+    margin: 2px !important;
+    margin-top: 8px !important;
+}
+
+.cardWork h5{
+    font-weight: bold;
+    margin-left: 14px;
+    
+}
+
+.cardWork p{
+    font-size: 14px;
+    text-align: left;
+}

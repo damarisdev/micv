@@ -1,0 +1,50 @@
+:root {
+    --color-white: #ffffff;
+    --color-black: #2f272a;
+    --color-pink-primary:  #DD2476;
+    --color-pink-secondary:   #FA5252 ;
+    --color-pink-auxiliary:#ecc9df ;
+    --color-blue: #bbdbd4 ;
+    --color-blue-light: #bbdbd452 ;
+    --color-gray-strong: #3e3f3f ;
+    --color-gray: #92a0a2 ;
+    --color-brown-light: #c0876a ;
+    
+    --border-radius:20px;
+    --tw-gradient-from: #FA5252;
+    --tw-gradient-to: #DD2476;
+    
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to)
+
+  }
+
+  body{
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-image: url("./../Images/bg.jpg");
+    }
+
+  .card{
+    background-color: var(--color-white);
+    border-radius: var(--border-radius);
+    margin: 25px;
+    padding: 30px;
+  }
+
+  .backgroundGradientPink{
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+
+  .shadow{
+    -webkit-box-shadow: 3px 10px 18px -7px rgba(0,0,0,0.52);
+    -moz-box-shadow: 3px 10px 18px -7px rgba(0,0,0,0.52);
+    box-shadow: 3px 10px 18px -7px rgba(0,0,0,0.52);
+  }
+
+  .c-white{
+    color: var(--color-white) !important;
+  }
