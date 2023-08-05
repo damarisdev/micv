@@ -75,3 +75,15 @@ textarea{
     
 }
 }
+
+@media only screen and (max-width : 450px) {
+    .container-contact h3 {
+        margin-top: 0px !important;
+        margin-bottom: 24px;
+    }
+
+    form{
+        padding: 16px;
+    }
+    
+}

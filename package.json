@@ -1,6 +1,7 @@
 {
   "name": "portafolio-damaris",
-  "version": "0.1.1.1",
+  "version": "0.1.1",
+  "author": "Jaime Bosch",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",

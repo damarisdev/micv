@@ -38,3 +38,9 @@
     }
 
 }
+
+@media only screen and (max-width : 450px) {
+    .containerCardWork {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -29,3 +29,19 @@
     }
 
 }
+
+@media only screen and (max-width : 450px) {
+    .containerTittle {
+        justify-content: space-between;
+    }
+
+    
+    .containerTittle .separator{
+        width: 120px;
+    }
+
+    .containerTittle h2{
+        font-size: 24px;
+        margin-right: 10px;
+    }
+}
