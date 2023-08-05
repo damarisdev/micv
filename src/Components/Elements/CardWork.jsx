@@ -7,7 +7,7 @@ export const CardWork = ({ rutaImagen, Titulo, Texto, Color }) => {
   return (
     <div className={Style}>
       <div>
-        <img src={rutaImagen} />
+        <img src={rutaImagen} alt="Damaris Barbosa Programadora" />
       </div>
       <div>
         <h3>{Titulo} </h3>

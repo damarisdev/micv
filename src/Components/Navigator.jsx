@@ -62,34 +62,34 @@ export const Navigator = ({ pagina, setPagina }) => {
   return (
     <div className="ContainerTopMenu shadow">
       <a onClick={() => ElijePagina(1)}>
-        <div className={pagina == 1 ? styleItemPink : styleItem}>
-          <img src={imgWomen} />
-          <p className={pagina == 1 ? "c-white" : ""}>Dámaris</p>
+        <div className={pagina === 1 ? styleItemPink : styleItem}>
+          <img src={imgWomen} alt="Damaris Barbosa Programadora" />
+          <p className={pagina === 1 ? "c-white" : ""}>Dámaris</p>
         </div>
       </a>
 
       <a onClick={() => ElijePagina(2)}>
-        <div className={pagina == 2 ? styleItemPink : styleItem}>
-          <img src={imgPage} />
-          <p className={pagina == 2 ? "c-white" : ""}>Experiencia</p>
+        <div className={pagina === 2 ? styleItemPink : styleItem}>
+          <img src={imgPage} alt="Damaris Barbosa Programadora" />
+          <p className={pagina === 2 ? "c-white" : ""}>Experiencia</p>
         </div>
       </a>
       <a onClick={() => ElijePagina(3)}>
-        <div className={pagina == 3 ? styleItemPink : styleItem}>
-          <img src={imgWork} />
-          <p className={pagina == 3 ? "c-white" : ""}>Portafolio</p>
+        <div className={pagina === 3 ? styleItemPink : styleItem}>
+          <img src={imgWork} alt="Damaris Barbosa Programadora" />
+          <p className={pagina === 3 ? "c-white" : ""}>Portafolio</p>
         </div>
       </a>
       <a onClick={() => ElijePagina(5)}>
-        <div className={pagina == 5 ? styleItemPink : styleItem}>
-          <img src={imgCertificate} />
-          <p className={pagina == 5 ? "c-white" : ""}>Certificados</p>
+        <div className={pagina === 5 ? styleItemPink : styleItem}>
+          <img src={imgCertificate} alt="Damaris Barbosa Programadora" />
+          <p className={pagina === 5 ? "c-white" : ""}>Certificados</p>
         </div>
       </a>
       <a onClick={() => ElijePagina(4)}>
-        <div className={pagina == 4 ? styleItemPink : styleItem}>
-          <img src={imgContact} />
-          <p className={pagina == 4 ? "c-white" : ""}>Contacto</p>
+        <div className={pagina === 4 ? styleItemPink : styleItem}>
+          <img src={imgContact} alt="Damaris Barbosa Programadora" />
+          <p className={pagina === 4 ? "c-white" : ""}>Contacto</p>
         </div>
       </a>
     </div>

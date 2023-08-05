@@ -13,7 +13,11 @@ export const LateralMenu = () => {
     <div className="card shadow lateralMenu">
       <div className="div-containerPhoto">
         <div className="containerPhoto">
-          <img src={ImageDamaris} className="shadow" />
+          <img
+            src={ImageDamaris}
+            alt="Damaris Barbosa Programadora"
+            className="shadow"
+          />
         </div>
       </div>
 
@@ -28,14 +32,18 @@ export const LateralMenu = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={IconIn} />
+              <img src={IconIn} alt="Damaris Barbosa Programadora" />
             </a>
           </div>
         </div>
         <div className="info">
           <div className="item">
             <div className="containerIcon shadow">
-              <img src={IconMailBlue} className="imgMail" />
+              <img
+                src={IconMailBlue}
+                alt="Damaris Barbosa Programadora"
+                className="imgMail"
+              />
             </div>
             <div className="containerLabel">
               <p className="itemLabel">Correo</p>
@@ -44,7 +52,11 @@ export const LateralMenu = () => {
           </div>
           <div className="item">
             <div className="containerIcon shadow">
-              <img src={IconLocation} className="imgMail" />
+              <img
+                src={IconLocation}
+                alt="Damaris Barbosa Programadora"
+                className="imgMail"
+              />
             </div>
             <div className="containerLabel">
               <p className="itemLabel">Ubicación</p>
@@ -53,7 +65,11 @@ export const LateralMenu = () => {
           </div>
           <div className="item">
             <div className="containerIcon shadow">
-              <img src={IconCalendar} className="imgMail" />
+              <img
+                src={IconCalendar}
+                alt="Damaris Barbosa Programadora"
+                className="imgMail"
+              />
             </div>
             <div className="containerLabel">
               <p className="itemLabel">Año de Nacimiento</p>

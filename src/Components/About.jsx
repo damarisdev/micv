@@ -19,7 +19,7 @@ export const About = () => {
   return (
     <div className="containerAbout">
       <Tittle Titulo="Acerca de mi" />
-      {mostrandoTexto == 0 ? (
+      {mostrandoTexto === 0 ? (
         <div>
           <div>
             <p>

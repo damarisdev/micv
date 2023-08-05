@@ -20,7 +20,11 @@ export const ContainerPage = () => {
     <div>
       <div className="containerPage">
         <div className="divMenu">
-          <img src={menu} onClick={() => setVisibleMenu(!visibleMenu)} />
+          <img
+            src={menu}
+            alt="Damaris Barbosa Programadora"
+            onClick={() => setVisibleMenu(!visibleMenu)}
+          />
         </div>
         {visibleMenu && (
           <div className="divLateralMenuMin">
@@ -34,13 +38,13 @@ export const ContainerPage = () => {
         <div className="containerData">
           <Navigator pagina={pagina} setPagina={setPagina} />
           <div className="containerHero shadow">
-            {pagina == 1 ? (
+            {pagina === 1 ? (
               <About />
-            ) : pagina == 2 ? (
+            ) : pagina === 2 ? (
               <Resume />
-            ) : pagina == 3 ? (
+            ) : pagina === 3 ? (
               <Works />
-            ) : pagina == 5 ? (
+            ) : pagina === 5 ? (
               <Certificate />
             ) : (
               <Contact />
