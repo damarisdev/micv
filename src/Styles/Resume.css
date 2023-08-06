@@ -82,3 +82,16 @@
     }
 
 }
+
+@media only screen and (max-width : 450px) {
+    .container-budget h5, .container-budget h5:last-child{
+        text-align: center !important;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        color:var(--color-pink-primary);
+    }
+
+    .container-budget:last-child{
+        align-items: center;
+    }
+}

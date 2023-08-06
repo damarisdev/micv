@@ -201,3 +201,10 @@
     margin-right: 5px;
 }
 
+@media only screen and (max-width : 450px) {
+
+    .lateralMenu .containerInfo  .info .item{
+        width: 282px;
+        justify-content: flex-start;
+    }
+}

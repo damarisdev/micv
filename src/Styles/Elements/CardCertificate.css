@@ -18,7 +18,7 @@
 .CardCertificate:hover{
     background-color: #fff5db !important;
     transition: 2s;
-    transform: rotateY(360deg);
+    transform: scale(1.1);
 }
 
 .container-certificate h3{
@@ -113,3 +113,24 @@
     }
     
 }
+
+@media only screen and (max-width : 450px) {
+    .container-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-certificate h3{
+        font-size: 17px;
+    }
+
+    .CardCertificate{
+        width: 99%;
+        text-align: center;
+    }
+
+    .CardCertificate h5{
+        margin-top: 6px;
+    }
+}
+

@@ -71,3 +71,33 @@
     
 
 }
+
+@media only screen and (max-width : 450px) {
+    .ContainerTopMenu {
+        align-self: center;
+    }
+    
+    .ContainerTopMenu .item {
+        width: 65px;
+    height: 65px;
+    border-radius: 7px;
+    background-color: var(--color-blue-light);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px !important;
+    }
+
+    .ContainerTopMenu {
+        min-width: 360px;
+        height: 96px;
+        margin: 0px !important;
+        margin-bottom: 18px !important;;
+        margin-top: 18px !important;;
+    }
+
+   
+    
+
+}

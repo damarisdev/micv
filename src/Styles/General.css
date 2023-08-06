@@ -48,3 +48,9 @@
   .c-white{
     color: var(--color-white) !important;
   }
+
+  @media only screen and (max-width : 450px) {
+    .card{
+      padding: 20px;
+    }
+  }
