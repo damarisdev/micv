@@ -53,18 +53,18 @@
     }
 }
 
-.lateralMenu .containerInfo h1{
+.lateralMenu .containerInfo h2{
     font-family: 'Poppins','Roboto',  sans-serif;
 }
 
-.lateralMenu .containerInfo  h2{
+.lateralMenu .containerInfo  h1{
     font-size: small;
     color: var(--color-gray);
     font-family: 'Poppins','Roboto',  sans-serif;
     margin-top: 0px;
 }
 
-.lateralMenu .containerInfo  h2:last-child{
+.lateralMenu .containerInfo  h1:last-child{
     font-size: small;
     color: var(--color-white);
     font-family: 'Poppins','Roboto',  sans-serif;

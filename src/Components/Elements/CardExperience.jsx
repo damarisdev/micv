@@ -19,7 +19,10 @@ export const CardExperience = ({
       </div>
       <div className="container-info">
         <div>
-          <img src={rutaImagen} alt="Damaris Barbosa Programadora" />
+          <img
+            src={rutaImagen}
+            alt="Damaris Barbosa Programadora experta en contabilidad"
+          />
         </div>
         <div cl>
           <h3>{Titulo} </h3>
