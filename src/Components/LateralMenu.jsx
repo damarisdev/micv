@@ -9,6 +9,24 @@ import IconCalendar from "./../Images/Icons/calendar.png";
 import IconIn from "./../Images/Icons/inBlue.png";
 
 export const LateralMenu = () => {
+  const Descargando = () => {
+    // URL del PDF que deseas descargar
+    const pdfURL =
+      "https://damarisbarbosamorenodev.azurewebsites.net/cv/Damaris%20CV%20Julio%202023.pdf";
+
+    // Crea un enlace temporal para descargar el PDF
+    const link = document.createElement("a");
+    link.href = pdfURL;
+    link.target = "_blank"; // Abre en una nueva ventana/tab
+    link.download = "nombre-del-archivo.pdf"; // Nombre que se le dará al archivo descargado
+
+    // Dispara el evento de clic en el enlace para iniciar la descarga
+    link.click();
+
+    // Limpia el enlace temporal
+    link.remove();
+  };
+
   return (
     <div className="card shadow lateralMenu">
       <div className="div-containerPhoto">
@@ -81,7 +99,7 @@ export const LateralMenu = () => {
           </div>
         </div>
 
-        <button className="btnDownload">
+        <button className="btnDownload" onClick={() => Descargando()}>
           Descarga mi CV
           <Icon className="btnIcon" name="download" />
         </button>
