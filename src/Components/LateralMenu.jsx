@@ -15,15 +15,15 @@ export const LateralMenu = () => {
         <div className="containerPhoto">
           <img
             src={ImageDamaris}
-            alt="Damaris Barbosa Programadora"
+            alt="Damaris Barbosa Programadora experta en contabilidad"
             className="shadow"
           />
         </div>
       </div>
 
       <div className="containerInfo">
-        <h1>Dámaris Barbosa</h1>
-        <h2>Programadora experta en contabilidad</h2>
+        <h2>Dámaris Barbosa</h2>
+        <h1>Programadora experta en contabilidad</h1>
 
         <div className="containerSocialMedia">
           <div className="itemMedia">
@@ -32,7 +32,10 @@ export const LateralMenu = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={IconIn} alt="Damaris Barbosa Programadora" />
+              <img
+                src={IconIn}
+                alt="Damaris Barbosa Programadora experta en contabilidad"
+              />
             </a>
           </div>
         </div>
@@ -41,7 +44,7 @@ export const LateralMenu = () => {
             <div className="containerIcon shadow">
               <img
                 src={IconMailBlue}
-                alt="Damaris Barbosa Programadora"
+                alt="Damaris Barbosa Programadora experta en contabilidad"
                 className="imgMail"
               />
             </div>
@@ -54,7 +57,7 @@ export const LateralMenu = () => {
             <div className="containerIcon shadow">
               <img
                 src={IconLocation}
-                alt="Damaris Barbosa Programadora"
+                alt="Damaris Barbosa Programadora experta en contabilidad"
                 className="imgMail"
               />
             </div>
@@ -67,7 +70,7 @@ export const LateralMenu = () => {
             <div className="containerIcon shadow">
               <img
                 src={IconCalendar}
-                alt="Damaris Barbosa Programadora"
+                alt="Damaris Barbosa Programadora experta en contabilidad"
                 className="imgMail"
               />
             </div>

@@ -14,7 +14,7 @@ import { Footer } from "./Footer";
 
 export const ContainerPage = () => {
   const [pagina, setPagina] = useState(1);
-  const [visibleMenu, setVisibleMenu] = useState(false);
+  const [visibleMenu, setVisibleMenu] = useState(true);
 
   return (
     <div>
@@ -22,7 +22,7 @@ export const ContainerPage = () => {
         <div className="divMenu">
           <img
             src={menu}
-            alt="Damaris Barbosa Programadora"
+            alt="Damaris Barbosa Programadora experta en contabilidad"
             onClick={() => setVisibleMenu(!visibleMenu)}
           />
         </div>
