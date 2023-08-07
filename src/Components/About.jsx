@@ -27,14 +27,14 @@ export const About = () => {
               habilidades en SQL y conocimientos en marketing, he tenido el
               privilegio de aplicar mis capacidades en una startup dedicada al
               comercio en línea, a la vez que me gustaría resaltar una amplia
-              experiencia en el campo de la contabilidad con mis poco mas de 10
+              experiencia en el campo de la contabilidad con mis poco más de 10
               años laborando en esta área.
             </p>
             <p>
               Durante mi tiempo en la startup como becaria, pude poner en
               práctica mis habilidades de programación, trabajando en los
               proyectos de la misma. Utilicé tecnologías como JavaScript,
-              HTML/CSS, consumo de API's, SQL, herramientas ETL (KNIME) para
+              HTML/CSS, consumo de APIs, SQL, herramientas ETL (KNIME) para
               apoyar en el desarrollo de soluciones innovadoras que
               contribuyeron al crecimiento de la empresa. Además, con mi
               conocimiento de SQL me permitió manejar y analizar datos con
@@ -75,19 +75,19 @@ export const About = () => {
               habilidades en SQL y conocimientos en marketing, he tenido el
               privilegio de aplicar mis capacidades en una startup dedicada al
               comercio en línea, a la vez que me gustaría resaltar una amplia
-              experiencia en el campo de la contabilidad con mis poco mas de 10
+              experiencia en el campo de la contabilidad con mis poco más de 10
               años laborando en esta área.
             </p>
             <p>
               Durante mi tiempo en la startup como becaria, pude poner en
               práctica mis habilidades de programación, trabajando en los
               proyectos de la misma. Utilicé tecnologías como JavaScript,
-              HTML/CSS, consumo de API's, SQL, herramientas ETL (KNIME) para
+              HTML/CSS, consumo de APIs, SQL, herramientas ETL (KNIME) para
               apoyar en el desarrollo de soluciones innovadoras que
               contribuyeron al crecimiento de la empresa. Además, con mi
               conocimiento de SQL me permitió manejar y analizar datos con
-              eficacia, proporcionando información valiosa en herraminetas como
-              Power BI o Tableu, que ayudaron a la toma de decisiones
+              eficacia, proporcionando información valiosa en herramientas como
+              Power BI o Tableau, que ayudaron a la toma de decisiones
               estratégicas.
             </p>
             <p>
@@ -118,8 +118,8 @@ export const About = () => {
           <div>
             <b>
               <p>
-                Me emocionada continuar mi trayectoria como programadora, y
-                espero seguir ampliando mis conocimientos y experiencia. Creo
+                Me emociona continuar mi trayectoria como programadora, y espero
+                seguir ampliando mis conocimientos y experiencia. Creo
                 firmemente que mi combinación de habilidades en programación,
                 SQL, marketing y contabilidad me convierte en una candidata
                 valiosa y versátil, lista para contribuir y prosperar en su
