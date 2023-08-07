@@ -52,8 +52,8 @@ export const About = () => {
           <div>
             <b>
               <p>
-                Me emocionada continuar mi trayectoria como programadora, y
-                espero seguir ampliando mis conocimientos y experiencia. Creo
+                Me emociona continuar mi trayectoria como programadora, y espero
+                seguir ampliando mis conocimientos y experiencia. Creo
                 firmemente que mi combinación de habilidades en programación,
                 SQL, marketing y contabilidad me convierte en una candidata
                 valiosa y versátil, lista para contribuir y prosperar en su

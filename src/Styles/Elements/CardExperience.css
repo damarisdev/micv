@@ -75,7 +75,7 @@
     text-align: left;
 }
 
-@media only screen and (max-width : 450px) {
+@media only screen and (max-width : 500px) {
 
     .cardWork h3{
         text-align: center;
