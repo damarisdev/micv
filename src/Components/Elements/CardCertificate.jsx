@@ -17,7 +17,7 @@ export const CardCertificate = ({
       width: 950,
       height: 850,
       text: Fecha,
-      imageUrl: img,
+      imageUrl: RutaImg,
       imageWidth: 750,
       imageHeight: 500,
       imageAlt: Curso,

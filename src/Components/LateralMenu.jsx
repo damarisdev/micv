@@ -12,7 +12,7 @@ export const LateralMenu = () => {
   const Descargando = () => {
     // URL del PDF que deseas descargar
     const pdfURL =
-      "https://damarisbarbosamorenodev.azurewebsites.net/cv/Damaris%20CV%20Julio%202023.pdf";
+      "https://damarisbarbosamorenodev.azurewebsites.net/cv/Damaris%20CV.pdf";
 
     // Crea un enlace temporal para descargar el PDF
     const link = document.createElement("a");
