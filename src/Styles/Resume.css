@@ -83,7 +83,7 @@
 
 }
 
-@media only screen and (max-width : 450px) {
+@media only screen and (max-width : 500px) {
     .container-budget h5, .container-budget h5:last-child{
         text-align: center !important;
         margin-top: 8px;

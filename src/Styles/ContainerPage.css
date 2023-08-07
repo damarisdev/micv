@@ -61,7 +61,7 @@
     }
 }
 
-@media only screen and (max-width : 450px) {
+@media only screen and (max-width : 500px) {
     .divMenu img{
         width: 32px;
         height: 32px;

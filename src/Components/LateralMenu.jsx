@@ -46,7 +46,7 @@ export const LateralMenu = () => {
         <div className="containerSocialMedia">
           <div className="itemMedia">
             <a
-              href="https://www.linkedin.com/in/damaris-barbosa-moreno-4707b3229/"
+              href="https://www.linkedin.com/in/damaris-b-4707b3229/"
               target="_blank"
               rel="noopener noreferrer"
             >
