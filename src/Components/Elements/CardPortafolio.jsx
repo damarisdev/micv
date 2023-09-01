@@ -12,9 +12,9 @@ export const CardPortafolio = ({
 }) => {
   return (
     <div className="card shadow containerCardPortafolio">
-      <img src={urlImagen} />
+      <img src={urlImagen} alt={Titulo} />
       <h3>{Titulo}</h3>
-      <label>Lenguajes:</label>
+      <label>Lenguajes utilizados:</label>
       <div className="containerTags">
         {Lenguajes.map((item) => (
           <div className="tag">{item} </div>
@@ -26,7 +26,7 @@ export const CardPortafolio = ({
       </div>
 
       <div className="containerButton">
-        <img src={imgGithub} />
+        <img src={imgGithub} alt="Github Damaris Barbosa Moreno" />
         <a
           className="buttonVisitPage"
           href={urlProyecto}
