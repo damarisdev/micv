@@ -128,7 +128,7 @@ export const About = () => {
               <p>
                 ¡Espero con entusiasmo la oportunidad de ser parte de su equipo
                 y continuar aportando mi pasión y dedicación en el mundo de la
-                tecnología!
+                tecnología!.
               </p>
             </b>
           </div>
