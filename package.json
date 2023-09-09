@@ -2,7 +2,7 @@
   "name": "portafolio-damaris",
   "version": "0.1.4",
   "author": "Jaime Bosch",
-  "homepage": "https://damarisdev.github.io/micv/",
+  "homepage": "https://damarisdev.github.io/micv",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
