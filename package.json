@@ -2,7 +2,7 @@
   "name": "portafolio-damaris",
   "version": "0.1.4",
   "author": "Jaime Bosch",
-  "homepage": "https://damarisdev.github.io/micv",
+  "homepage": "https://damarisprogramadoraycontadora.com",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -19,7 +19,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo damarisprogramadoraycontadora.com > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
