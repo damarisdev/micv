@@ -68,7 +68,7 @@ export const LateralMenu = () => {
             </div>
             <div className="containerLabel">
               <p className="itemLabel">Correo</p>
-              <p className="itemValue">dami181010@gmail.com</p>
+              <p className="itemValue">damarisbarbosadev@gmail.com</p>
             </div>
           </div>
           <div className="item">
