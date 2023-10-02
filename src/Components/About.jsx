@@ -23,22 +23,21 @@ export const About = () => {
         <div>
           <div>
             <p>
-              Con alrededor de 2 años de experiencia en programación,
-              habilidades en SQL y conocimientos en marketing, he tenido el
-              privilegio de aplicar mis capacidades en una startup dedicada al
-              comercio en línea, a la vez que me gustaría resaltar una amplia
-              experiencia en el campo de la contabilidad con mis poco más de 10
-              años laborando en esta área.
+              Con alrededor de 5 años de experiencia en programación, REACT, C#
+              .NET, Javascript, Windows Forms habilidades en SQL, API's,
+              conocimientos en marketing, etc. He tenido el privilegio de
+              aplicar mis capacidades en una startup dedicada al comercio en
+              línea, a la vez que me gustaría resaltar una amplia experiencia en
+              el campo de la contabilidad.
             </p>
             <p>
-              Durante mi tiempo en la startup como becaria, pude poner en
-              práctica mis habilidades de programación, trabajando en los
-              proyectos de la misma. Utilicé tecnologías como JavaScript,
-              HTML/CSS, consumo de APIs, SQL, herramientas ETL (KNIME) para
-              apoyar en el desarrollo de soluciones innovadoras que
-              contribuyeron al crecimiento de la empresa. Además, con mi
-              conocimiento de SQL me permitió manejar y analizar datos con
-              eficacia, proporcionando{" "}
+              Durante mi tiempo en la startup, pude poner en práctica mis
+              habilidades de programación, trabajando en los proyectos de la
+              misma. Utilicé tecnologías como JavaScript, HTML/CSS, consumo de
+              APIs, SQL, herramientas ETL (KNIME) para apoyar en el desarrollo
+              de soluciones innovadoras que contribuyeron al crecimiento de la
+              empresa. Además, con mi conocimiento de SQL me permitió manejar y
+              analizar datos con eficacia, proporcionando{" "}
               <a
                 onClick={() => {
                   setMostrandoTexto(1);
@@ -71,24 +70,23 @@ export const About = () => {
         <div>
           <div>
             <p>
-              Con alrededor de 2 años de experiencia en programación,
-              habilidades en SQL y conocimientos en marketing, he tenido el
-              privilegio de aplicar mis capacidades en una startup dedicada al
-              comercio en línea, a la vez que me gustaría resaltar una amplia
-              experiencia en el campo de la contabilidad con mis poco más de 10
-              años laborando en esta área.
+              Con alrededor de 5 años de experiencia en programación, REACT, C#
+              .NET, Javascript, Windows Forms habilidades en SQL, API's,
+              conocimientos en marketing, etc. He tenido el privilegio de
+              aplicar mis capacidades en una startup dedicada al comercio en
+              línea, a la vez que me gustaría resaltar una amplia experiencia en
+              el campo de la contabilidad.
             </p>
             <p>
-              Durante mi tiempo en la startup como becaria, pude poner en
-              práctica mis habilidades de programación, trabajando en los
-              proyectos de la misma. Utilicé tecnologías como JavaScript,
-              HTML/CSS, consumo de APIs, SQL, herramientas ETL (KNIME) para
-              apoyar en el desarrollo de soluciones innovadoras que
-              contribuyeron al crecimiento de la empresa. Además, con mi
-              conocimiento de SQL me permitió manejar y analizar datos con
-              eficacia, proporcionando información valiosa en herramientas como
-              Power BI o Tableau, que ayudaron a la toma de decisiones
-              estratégicas.
+              Durante mi tiempo en la startup, pude poner en práctica mis
+              habilidades de programación, trabajando en los proyectos de la
+              misma. Utilicé tecnologías como JavaScript, HTML/CSS, consumo de
+              APIs, SQL, herramientas ETL (KNIME) para apoyar en el desarrollo
+              de soluciones innovadoras que contribuyeron al crecimiento de la
+              empresa. Además, con mi conocimiento de SQL me permitió manejar y
+              analizar datos con eficacia, proporcionando información valiosa en
+              herramientas como Power BI o Tableau, que ayudaron a la toma de
+              decisiones estratégicas.
             </p>
             <p>
               Al mismo tiempo, mi gran experiencia en contabilidad fue un
@@ -144,7 +142,7 @@ export const About = () => {
         <CardWork
           rutaImagen={imagen_desarrollo}
           Titulo="Desarrollo de aplicaciones web"
-          Texto="Utilizando tecnologías como JavaScript, HTML y CSS para crear interfaces interactivas y atractivas."
+          Texto="Utilizando tecnologías como JavaScript, HTML y CSS, REACT, C# .NET para crear interfaces interactivas y atractivas."
           Color="bgColor_1"
         />
         <CardWork

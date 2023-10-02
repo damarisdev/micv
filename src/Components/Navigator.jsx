@@ -80,7 +80,7 @@ export const Navigator = ({ pagina, setPagina }) => {
           <p className={pagina === 2 ? "c-white" : ""}>Experiencia</p>
         </div>
       </a>
-      <a onClick={() => ElijePagina(3)}>
+      {/* <a onClick={() => ElijePagina(3)}>
         <div className={pagina === 3 ? styleItemPink : styleItem}>
           <img
             src={imgWork}
@@ -88,7 +88,7 @@ export const Navigator = ({ pagina, setPagina }) => {
           />
           <p className={pagina === 3 ? "c-white" : ""}>Portafolio</p>
         </div>
-      </a>
+      </a> */}
       <a onClick={() => ElijePagina(5)}>
         <div className={pagina === 5 ? styleItemPink : styleItem}>
           <img

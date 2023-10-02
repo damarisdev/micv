@@ -93,8 +93,8 @@ export const LateralMenu = () => {
               />
             </div>
             <div className="containerLabel">
-              <p className="itemLabel">Año de Nacimiento</p>
-              <p className="itemValue">1986</p>
+              <p className="itemLabel">Pasión por:</p>
+              <p className="itemValue">La contabilidad y la programación</p>
             </div>
           </div>
         </div>
