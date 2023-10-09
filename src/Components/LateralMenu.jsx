@@ -33,7 +33,7 @@ export const LateralMenu = () => {
         <div className="containerPhoto">
           <img
             src={ImageDamaris}
-            alt="Damaris Barbosa Programadora experta en contabilidad"
+            alt="Damaris Barbosa Programadora con conocimientos en contabilidad"
             className="shadow"
           />
         </div>
@@ -41,7 +41,7 @@ export const LateralMenu = () => {
 
       <div className="containerInfo">
         <h2>Dámaris Barbosa</h2>
-        <h1>Programadora experta en contabilidad</h1>
+        <h1>Programadora con conocimientos en contabilidad</h1>
 
         <div className="containerSocialMedia">
           <div className="itemMedia">
@@ -52,7 +52,7 @@ export const LateralMenu = () => {
             >
               <img
                 src={IconIn}
-                alt="Damaris Barbosa Programadora experta en contabilidad"
+                alt="Damaris Barbosa Programadora con conocimientos en contabilidad"
               />
             </a>
           </div>
@@ -62,7 +62,7 @@ export const LateralMenu = () => {
             <div className="containerIcon shadow">
               <img
                 src={IconMailBlue}
-                alt="Damaris Barbosa Programadora experta en contabilidad"
+                alt="Damaris Barbosa Programadora con conocimientos en contabilidad"
                 className="imgMail"
               />
             </div>
@@ -75,7 +75,7 @@ export const LateralMenu = () => {
             <div className="containerIcon shadow">
               <img
                 src={IconLocation}
-                alt="Damaris Barbosa Programadora experta en contabilidad"
+                alt="Damaris Barbosa Programadora con conocimientos en contabilidad"
                 className="imgMail"
               />
             </div>
@@ -88,13 +88,13 @@ export const LateralMenu = () => {
             <div className="containerIcon shadow">
               <img
                 src={IconCalendar}
-                alt="Damaris Barbosa Programadora experta en contabilidad"
+                alt="Damaris Barbosa Programadora con conocimientos en contabilidad"
                 className="imgMail"
               />
             </div>
             <div className="containerLabel">
               <p className="itemLabel">Pasión por:</p>
-              <p className="itemValue">La contabilidad y la programación</p>
+              <p className="itemValue">La programación y la contabilidad </p>
             </div>
           </div>
         </div>

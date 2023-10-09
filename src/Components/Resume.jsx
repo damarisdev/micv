@@ -138,16 +138,7 @@ export const Resume = () => {
                 Texto="Mantenimiento de aplicaciones WEB"
               />
               <CardKnowledge Nivel="0" Texto="C# .NET" />
-            </div>
-          </div>
-          <div className="container-acento">
-            <div className="acento"></div>
-          </div>
-          <div className="container-budget">
-            <div>
-              <h5>.</h5>
-            </div>
-            <div className="items">
+
               <CardKnowledge
                 Nivel="1"
                 Texto="Diseño responsivo y adaptación móvil"

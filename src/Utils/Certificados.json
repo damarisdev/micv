@@ -1,240 +1,256 @@
 [
+    
+    {
+        "Curso":"Curso de Introducción a C# con .NET 3.1",
+        "Fecha":"Octubre 2023",
+        "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Curso de Introducción a C con NET 3 1.jpg",
+        "Plataforma":"Ver diploma en Platzi",
+        "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/2198-csharp-introduccion/diploma/detalle/"
+    },
+    {
+        "Curso":"Curso de Programación Orientada a Objetos con C#",
+        "Fecha":"Octubre 2023",
+        "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Curso de Programación Orientada a Objetos con C.jpg",
+        "Plataforma":"Ver diploma en Platzi",
+        "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/8036-c-sharp-poo/diploma/detalle/"
+    },
+
     {
         "Curso":"Curso de Frameworks y Librerías de JavaScript",
         "Fecha":"Septiembre 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Curso de Frameworks y Librerías de JavaScript.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/2239-frameworks-javascript/diploma/detalle/"
     },
     {
         "Curso":"Curso de NPM: Gestión de Paquetes y Dependencias en JavaScript",
         "Fecha":"Septiembre 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Curso de NPM Gestión de Paquetes y Dependencias en JavaScript.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3578-npm/diploma/detalle/"
     },
     {
         "Curso":"Curso de React.js",
         "Fecha":"Septiembre 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Curso de Reactjs.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/7395-react/diploma/detalle/"
     },
     {
         "Curso":"Curso Básico de Programación Orientada a Objetos con JavaScript",
         "Fecha":"Agosto 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Curso Básico de Programación Orientada a Objetos con JavaScript.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/2419-javascript-poo-intermedio/diploma/detalle/"
     },
     {
         "Curso":"Curso Intermedio de Programación Orientada a Objetos en JavaScript",
         "Fecha":"Agosto 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Curso Intermedio de Programación Orientada a Objetos en JavaScript.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/2419-javascript-poo-intermedio/diploma/detalle/"
     },
     {
         "Curso":"Curso Profesional de Git y GitHub",
         "Fecha":"Agosto 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Curso Profesional de Git y GitHub.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/1557-git-github/diploma/detalle/"
     },
     {
         "Curso":"Curso Práctico de Maquetación y Animaciones con CSS",
         "Fecha":"Agosto 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Curso Práctico de Maquetación y Animaciones con CSS.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/2338-animaciones-css-practico/diploma/detalle/"
     },
     {
         "Curso":"Curso de Manipulación de Arrays en JavaScript",
         "Fecha":"Agosto 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Curso de Manipulación de Arrays en JavaScript.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/2461-arrays/diploma/detalle/"
     },
     {
         "Curso":"Asincronismo con JavaScript",
         "Fecha":"Agosto 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Asincronismo con JavaScript.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3175-asincronismo-js/diploma/detalle/"
     },
     {
         "Curso":"API REST con Javascript: Performance y Usabilidad",
         "Fecha":"Agosto 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/API REST con Javascript Performance y Usabilidad.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/2942-api-profesional/diploma/detalle/"
     },
     {
         "Curso":"API REST con Javascript: Ejemplos con APIs reales",
         "Fecha":"Agosto 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/API REST con Javascript.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/2986-api-practico/diploma/detalle/"
     },
     {
         "Curso":"API REST con Javascript: Fundamentos",
         "Fecha":"Agosto 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/API REST con Javascript Fundamentos.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/2985-api/diploma/detalle/"
     },
     {
         "Curso":"API REST con Javascript",
         "Fecha":"Agosto 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/API REST con Javascript.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/2986-api-practico/diploma/detalle/"
     },
     {
         "Curso":"Manipulación del DOM",
         "Fecha":"Agosto 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Manipulación del DOM.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/2193-dom/diploma/detalle/"
     },
     {
         "Curso":"Closures y Scope en JavaScript",
         "Fecha":"Agosto 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Closures.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3213-javascript-closures-scope/diploma/detalle/"
     },
     {
         "Curso":" ¡Crea tu Primer Videojuego!",
         "Fecha":"Agosto 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Videojuego.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3213-javascript-closures-scope/diploma/detalle/"
     },
     {
         "Curso":"Básico de JavaScript",
         "Fecha":"Julio 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/javascript.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3213-javascript-closures-scope/diploma/detalle/"
     },
     {
         "Curso":"Definitivo de HTML y CSS",
         "Fecha":"Julio 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/htmlcss.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3213-javascript-closures-scope/diploma/detalle/"
     },
     {
         "Curso":"Práctico de Frontend Developer",
         "Fecha":"Julio 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/frontend.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3213-javascript-closures-scope/diploma/detalle/"
     },
     {
         "Curso":"Práctico de HTML y CSS",
         "Fecha":"Julio 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/practicohtmlcss.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3213-javascript-closures-scope/diploma/detalle/"
     },
     {
         "Curso":"Práctico de JavaScript",
         "Fecha":"Julio 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/practicojavascript.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3213-javascript-closures-scope/diploma/detalle/"
     },
     {
         "Curso":"ECMAScript: Historia y Versiones de JavaScript",
         "Fecha":"Julio 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/ecmascript.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3213-javascript-closures-scope/diploma/detalle/"
     },
     {
         "Curso":"Estructuras de Datos con JavaScript",
         "Fecha":"Julio 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Estructuras de Datos con JavaScript.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3213-javascript-closures-scope/diploma/detalle/"
     },
     {
         "Curso":"Frontend Developer",
         "Fecha":"Julio 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Frontend Developer.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3213-javascript-closures-scope/diploma/detalle/"
     },
     {
         "Curso":"JavaScript Engine (V8) y el Navegador",
         "Fecha":"Julio 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/JavaScript Engine (V8) y el Navegador.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3213-javascript-closures-scope/diploma/detalle/"
     },
     {
         "Curso":"Pensamiento Lógico: Algoritmos y Diagramas de Flujo",
         "Fecha":"Julio 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Pensamiento Lógico Algoritmos y Diagramas de Flujo.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3213-javascript-closures-scope/diploma/detalle/"
     },
     {
         "Curso":"Pensamiento Lógico Lenguajes de Programación",
         "Fecha":"Julio 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Pensamiento Lógico Lenguajes de Programación.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3213-javascript-closures-scope/diploma/detalle/"
     },
     {
         "Curso":"Pensamiento Lógico Manejo de Datos, Estructuras y Funciones",
         "Fecha":"Julio 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Pensamiento Lógico Manejo de Datos, Estructuras y Funciones.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3213-javascript-closures-scope/diploma/detalle/"
     },
     {
         "Curso":"Programación Orientada a Objetos POO",
         "Fecha":"Julio 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Programación Orientada a Objetos POO.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3213-javascript-closures-scope/diploma/detalle/"
     },
     {
         "Curso":"Business Intelligence Utilidad y Áreas de Oportunidad",
         "Fecha":"Junio 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Business Intelligence Utilidad y Áreas de Oportunidad.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3213-javascript-closures-scope/diploma/detalle/"
     },
     {
         "Curso":"Estadística y Probabilidad",
         "Fecha":"Junio 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/ Estadística y Probabilidad.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3213-javascript-closures-scope/diploma/detalle/"
     },
     {
         "Curso":"Principios de Visualización de Datos para Business Intelligence",
         "Fecha":"Mayo 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Principios de Visualización de Datos para Business Intelligence.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3213-javascript-closures-scope/diploma/detalle/"
     },
     {
         "Curso":"Tableau Visualización de Datos y Storytelling para Negocios",
         "Fecha":"Mayo 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Tableau Visualización de Datos y Storytelling para Negocios.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3213-javascript-closures-scope/diploma/detalle/"
     },
     {
         "Curso":"Básico de Computadores e Informática",
         "Fecha":"Junio 2023",
         "RutaImg":"https://damarisprogramadoraycontadora.com/Certificates/Básico de Computadores e Informática.jpg",
-        "Plataforma":"Platzi",
+        "Plataforma":"Ver diploma en Platzi",
         "UrlPlataforma":"https://platzi.com/p/Damaris7/curso/3213-javascript-closures-scope/diploma/detalle/"
     }
 
